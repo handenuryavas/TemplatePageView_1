@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		080A680D2A2E2AED00443097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A680C2A2E2AED00443097 /* AppDelegate.swift */; };
 		080A680F2A2E2AED00443097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A680E2A2E2AED00443097 /* SceneDelegate.swift */; };
-		080A68112A2E2AED00443097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68102A2E2AED00443097 /* ViewController.swift */; };
+		080A68112A2E2AED00443097 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68102A2E2AED00443097 /* CustomTabViewController.swift */; };
 		080A68142A2E2AED00443097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080A68122A2E2AED00443097 /* Main.storyboard */; };
 		080A68162A2E2AED00443097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080A68152A2E2AED00443097 /* Assets.xcassets */; };
 		080A68192A2E2AED00443097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080A68172A2E2AED00443097 /* LaunchScreen.storyboard */; };
+		080A68222A2E2B1D00443097 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68212A2E2B1D00443097 /* HomeViewController.swift */; };
+		080A68242A2E2B2800443097 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68232A2E2B2800443097 /* DiscountViewController.swift */; };
+		080A68262A2E2B3300443097 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68252A2E2B3300443097 /* CartViewController.swift */; };
+		080A68282A2E2B4000443097 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68272A2E2B4000443097 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		080A68092A2E2AED00443097 /* Template-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		080A680C2A2E2AED00443097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		080A680E2A2E2AED00443097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		080A68102A2E2AED00443097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		080A68102A2E2AED00443097 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
 		080A68132A2E2AED00443097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		080A68152A2E2AED00443097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080A68182A2E2AED00443097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		080A681A2A2E2AED00443097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080A68212A2E2B1D00443097 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		080A68232A2E2B2800443097 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		080A68252A2E2B3300443097 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		080A68272A2E2B4000443097 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		080A680B2A2E2AED00443097 /* Template-1 */ = {
 			isa = PBXGroup;
 			children = (
+				080A68202A2E2B0B00443097 /* TemplateController */,
 				080A680C2A2E2AED00443097 /* AppDelegate.swift */,
 				080A680E2A2E2AED00443097 /* SceneDelegate.swift */,
-				080A68102A2E2AED00443097 /* ViewController.swift */,
+				080A68102A2E2AED00443097 /* CustomTabViewController.swift */,
 				080A68122A2E2AED00443097 /* Main.storyboard */,
 				080A68152A2E2AED00443097 /* Assets.xcassets */,
 				080A68172A2E2AED00443097 /* LaunchScreen.storyboard */,
 				080A681A2A2E2AED00443097 /* Info.plist */,
 			);
 			path = "Template-1";
+			sourceTree = "<group>";
+		};
+		080A68202A2E2B0B00443097 /* TemplateController */ = {
+			isa = PBXGroup;
+			children = (
+				080A68212A2E2B1D00443097 /* HomeViewController.swift */,
+				080A68232A2E2B2800443097 /* DiscountViewController.swift */,
+				080A68252A2E2B3300443097 /* CartViewController.swift */,
+				080A68272A2E2B4000443097 /* AccountViewController.swift */,
+			);
+			path = TemplateController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				080A68112A2E2AED00443097 /* ViewController.swift in Sources */,
+				080A68242A2E2B2800443097 /* DiscountViewController.swift in Sources */,
+				080A68112A2E2AED00443097 /* CustomTabViewController.swift in Sources */,
+				080A68282A2E2B4000443097 /* AccountViewController.swift in Sources */,
 				080A680D2A2E2AED00443097 /* AppDelegate.swift in Sources */,
 				080A680F2A2E2AED00443097 /* SceneDelegate.swift in Sources */,
+				080A68262A2E2B3300443097 /* CartViewController.swift in Sources */,
+				080A68222A2E2B1D00443097 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
