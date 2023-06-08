@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="688" y="-711"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="zo1-6W-fcH">
@@ -30,28 +30,13 @@
                     <view key="view" contentMode="scaleToFill" id="KU4-Nu-OXf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyb-EV-eVJ">
-                                <rect key="frame" x="24" y="83" width="345" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="8w1-zF-fRL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="cyb-EV-eVJ" firstAttribute="top" secondItem="8w1-zF-fRL" secondAttribute="top" constant="24" id="JNs-12-dYa"/>
-                            <constraint firstItem="8w1-zF-fRL" firstAttribute="trailing" secondItem="cyb-EV-eVJ" secondAttribute="trailing" constant="24" id="YRi-Ej-3Nu"/>
-                            <constraint firstItem="cyb-EV-eVJ" firstAttribute="leading" secondItem="8w1-zF-fRL" secondAttribute="leading" constant="24" id="fUw-LI-XHk"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="locationField" destination="cyb-EV-eVJ" id="5oP-q8-6rb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9on-HP-XFR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-347" y="-711"/>
+            <point key="canvasLocation" x="-356.48854961832058" y="-758.45070422535218"/>
         </scene>
     </scenes>
     <resources>

@@ -17,6 +17,7 @@
 		080A68242A2E2B2800443097 /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68232A2E2B2800443097 /* DiscountViewController.swift */; };
 		080A68262A2E2B3300443097 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68252A2E2B3300443097 /* CartViewController.swift */; };
 		080A68282A2E2B4000443097 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A68272A2E2B4000443097 /* AccountViewController.swift */; };
+		080A682E2A2F50F500443097 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A682D2A2F50F500443097 /* CollectionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		080A68232A2E2B2800443097 /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
 		080A68252A2E2B3300443097 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		080A68272A2E2B4000443097 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		080A682D2A2F50F500443097 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		080A680B2A2E2AED00443097 /* Template-1 */ = {
 			isa = PBXGroup;
 			children = (
+				080A682A2A2F467A00443097 /* Views */,
 				080A68202A2E2B0B00443097 /* TemplateController */,
 				080A680C2A2E2AED00443097 /* AppDelegate.swift */,
 				080A680E2A2E2AED00443097 /* SceneDelegate.swift */,
@@ -85,6 +88,14 @@
 				080A68272A2E2B4000443097 /* AccountViewController.swift */,
 			);
 			path = TemplateController;
+			sourceTree = "<group>";
+		};
+		080A682A2A2F467A00443097 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				080A682D2A2F50F500443097 /* CollectionTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				080A680F2A2E2AED00443097 /* SceneDelegate.swift in Sources */,
 				080A68262A2E2B3300443097 /* CartViewController.swift in Sources */,
 				080A68222A2E2B1D00443097 /* HomeViewController.swift in Sources */,
+				080A682E2A2F50F500443097 /* CollectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
